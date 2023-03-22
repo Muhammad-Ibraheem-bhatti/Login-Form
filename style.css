@@ -1,0 +1,144 @@
+body{
+	height: 100vh;
+	width: 100wh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+   background-image: url("./assets/img1.jpg");
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+.container{
+	height: 400px;
+	max-width: 400px;
+	background-color:transparent;
+	box-shadow: rgba(255, 0, 255, 0.9) 0px 5px 15px;
+	color: whitesmoke;
+	padding-top: 20px;
+	position: relative;
+	border-radius: 50px;
+}
+#head{
+	font-weight: bolder;
+	color: whitesmoke;
+
+}
+#head::after{
+
+	content:" ";
+ 	position: absolute;
+ 	height: 5px;
+ 	width:100px;
+ 	background-color: lightgray;
+ 	border-radius: 30px;
+ 	border: 1px solid seagreen;
+ 	top: 55px;
+ 	left: 150px;
+ 	
+}
+.username{
+	display: flex;
+	flex-direction: row;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: 10px;
+	background-color:#66347F;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+	padding-right: 10px;
+	margin-top: 30px;
+	color: white;
+	opacity: 0.7;
+	border-bottom:2px solid white ;
+
+}
+input{
+	border: none;
+	background-color: transparent;
+	padding: 10px;
+	width: 100%;
+	outline: none;
+
+
+}
+#chekbox{
+	position: absolute;
+	left: -160px;
+	top: 288px;
+	color: red;
+	background-color: transparent;
+	opacity: 0.7;
+	height: 15px;
+
+}
+#chekbox + span{
+	color: white;
+	position: absolute;
+	left: 50px;
+	top: 285px;
+}
+
+#btns{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+
+}
+.btn{
+	float: right;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin-top: 10px;
+	color: yellowgreen;
+	
+	
+}
+#btn{
+	position: absolute;
+	top: 330px;
+	left: 30px;
+	background-color:#66347F ;
+	border: none;
+	height: 40px;
+	width: 100px;
+	border-radius: 10px;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media(max-width:405px)
+{
+   #head::after{
+
+	content:" ";
+ 	position: absolute;
+ 	height: 5px;
+ 	width:100px;
+ 	background-color: lightgray;
+ 	border-radius: 30px;
+ 	border: 1px solid seagreen;
+ 	top: 55px;
+ 	left: 150px;
+ 	display: none;
+ 	
+}	
+}
+
+@media(max-width:575px)
+{
+   #head::after{
+
+	content:" ";
+ 	position: absolute;
+ 	height: 5px;
+ 	width:100px;
+ 	background-color: lightgray;
+ 	border-radius: 30px;
+ 	border: 1px solid seagreen;
+ 	top: 55px;
+ 	left: 150px;
+ 	
+}	
+}

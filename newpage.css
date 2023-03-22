@@ -1,0 +1,77 @@
+#search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.button{
+	width: 45%;
+}
+#search .form-group, input{
+	width: 300px;
+}
+#Output{
+	display: flex;
+	overflow-y: scroll;
+	height: 138px;
+
+}
+.org{
+	overflow-y: auto;
+}
+@media(max-width:480px)
+{
+	#Output{
+	display: flex;
+	overflow-y: scroll;
+	height: 186px;
+
+}
+}
+
+
+@media(max-width:1200px)
+{
+	#Output{
+	display: flex;
+	overflow-y: scroll;
+	height: 162px;
+
+}
+}
+@media(max-width:1224px)
+{
+	#Output{
+	display: flex;
+	overflow-y: scroll;
+	height: 162px;
+
+}
+}
+
+@media(max-width:1280px)
+{
+	#Output{
+	display: flex;
+	overflow-y: scroll;
+	height: 162px;
+
+}
+}
+
+
+
+@media(max-width:1192px)
+{
+	.button{
+	width:100%;
+}
+#search{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 182px;
+	margin-bottom: 2px;
+
+}
+}
